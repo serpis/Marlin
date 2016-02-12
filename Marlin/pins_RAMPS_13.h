@@ -126,6 +126,10 @@
   #define HEATER_BED_PIN    8    // BED
 #endif
 
+// JF 2016-02-12: heater bed on AUX-1
+#undef HEATER_BED_PIN
+#define HEATER_BED_PIN 58
+
 #define TEMP_BED_PIN         14   // ANALOG NUMBERING
 
 #if ENABLED(Z_PROBE_SLED)
